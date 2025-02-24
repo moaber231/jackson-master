@@ -601,17 +601,20 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 									        <textarea name="message" class="form-control" placeholder="Message" required></textarea>
 									    </div>
 									
-									    <!-- Auto-Reply Feature -->
-									    <input type="hidden" name="_autoresponse" value="Thank you for contacting me! I will get back to you as soon as possible.">
-									    
-									    <!-- Spam protection & Redirect -->
-									    <input type="hidden" name="_next" value="/thanks.html">
+									    <!-- Auto-reply message -->
+									    <input type="hidden" name="_autoresponse" value="Thank you for contacting me! I will reply as soon as possible.">
+									
+									    <!-- Redirect to a custom Thank You page -->
+									    <input type="hidden" name="_next" value="https://moaber231.github.io/GkogkosKonstantinosPage/thanks.html">
+									
+									    <!-- Disable Captcha (optional) -->
 									    <input type="hidden" name="_captcha" value="false">
 									
 									    <div class="form-group">
 									        <input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
 									    </div>
 									</form>
+
 
 									
 								</div>
